@@ -13,9 +13,9 @@
    #:define-start-function
 
    ;; window
-   #:window #:gl-window #:initialize-window
+   #:window #:gl-window #:2d-window #:initialize-window
 
-   #:sdl-window #:sdl-window-id #:gl-context #:window-from-id
+   #:sdl-window #:sdl-window-id #:gl-context #:renderer #:window-from-id
    #:render-enabled
 
    #:all-windows #:focused-window #:last-window
